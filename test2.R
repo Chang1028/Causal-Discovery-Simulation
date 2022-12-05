@@ -1,6 +1,3 @@
-
-
-
 library(pcalg)
 data("gmG")
 
@@ -10,12 +7,6 @@ stopifnot(require(Rgraphviz))
 par(mfrow = c(1,2))
 plot(gmG8$g, main = "")
 plot(pc.gmG, main = "")
-
-
-
-
-
-
 
 
 ida(1, 6, cov(gmG8$x), pc.gmG@graph)
